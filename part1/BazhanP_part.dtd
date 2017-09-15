@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!ELEMENT отметка (CDATA) >
-<!ATTLIST отметка
-	дисциплина CDATA #REQUIRED >
+<!ELEMENT grade (CDATA) >
+<!ATTLIST grade
+	subject CDATA #REQUIRED >
 
-<!ELEMENT студент (отметка+) >
-<!ATTLIST студент 
-	имя CDATA #REQUIRED >
+<!ELEMENT student (grade+) >
+<!ATTLIST student 
+	name CDATA #REQUIRED >
 
-<!ELEMENT таблица (студент+) >
+<!ELEMENT table (student+) >
