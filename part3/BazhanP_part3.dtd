@@ -15,12 +15,12 @@
 	title CDATA #REQUIRED
 	frequency CDATA #IMPLIED>
 
-<!ELEMENT others (#PCDATA) >
-<!ATTLIST others
+<!ELEMENT other (#PCDATA) >
+<!ATTLIST other
 	title CDATA #REQUIRED
 	frequency CDATA #IMPLIED>
 
-<!ELEMENT list (ip | os | mobile)* >
+<!ELEMENT list (ip | os | mobile |other)* >
 
 <!ELEMENT h (#PCDATA) >
 
