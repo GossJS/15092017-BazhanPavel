@@ -22,6 +22,8 @@
 
 <!ELEMENT list (ip | os | mobile |other)* >
 
+<!ELEMENT ips (ip+) >
+
 <!ELEMENT h (#PCDATA) >
 
 <!ELEMENT statistics ANY >
