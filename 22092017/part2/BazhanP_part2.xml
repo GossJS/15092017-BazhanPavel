@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE table PUBLIC "part1" "BazhanP_part1.dtd">
 
-<table>
-	<student name = "Иванов">
+<table 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="test01.xsd">
+    <student name = "Иванов">
 		<grade subject="Мультимедиа">3</grade>
 		<grade subject="Веб-дизайн">3</grade>
 		<grade subject="Графика">5</grade>
