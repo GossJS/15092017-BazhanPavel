@@ -2,7 +2,7 @@
 
 <table 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="test01.xsd">
+    xsi:noNamespaceSchemaLocation="BazhanP_part2.xsd">
     <student name = "Иванов">
 		<grade subject="Мультимедиа">3</grade>
 		<grade subject="Веб-дизайн">3</grade>
