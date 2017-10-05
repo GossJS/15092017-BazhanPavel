@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE table PUBLIC "part1" "BazhanP_part1.dtd">
+
+<table>
+	<student name = "Иванов">
+		<grade subject="Мультимедиа">3</grade>
+		<grade subject="Веб-дизайн">3</grade>
+		<grade subject="Графика">5</grade>
+	</student>
+	<student name = "Петрова">
+		<grade subject="Мультимедиа">3</grade>
+		<grade subject="Веб-дизайн">4</grade>
+		<grade subject="Графика">5</grade>
+		<grade subject="Логика">5</grade>
+	</student>
+	<student name = "Сидоренко">
+		<grade subject="Мультимедиа">3</grade>
+		<grade subject="Веб-дизайн">4</grade>
+		<grade subject="Графика">5</grade>
+		<grade subject="Логика">4</grade>
+	</student>
+</table>
